@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(250deg, #3d1365, #5c1374, #8e007e);
+    width: 100%;
+}
+
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    border-bottom: 3px solid #f9cf8b;
+    height: 10vh;
+    font-weight: bolder;
+    width: 100%;
+    z-index: 3;
+}
+
+
+.menu_principal{
+    display: flex;
+}
+
+.icone_contato{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    filter: drop-shadow( 0 0 10px #f402d8);
+}
+
+.icone_contato:hover{
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow( 0 0 7px rgb(255, 255, 255));
+}
+
+nav .menu_principal .icone_contato{
+    opacity: 200%;
+}
+    
+
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+}
+
+.informacoes_principal{
+    position: absolute;
+    top: 190px;
+    left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    z-index: 1;
+}
+
+.titulo_principal{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: Kanit;
+    font-weight: 400;
+    animation: mostraprincipal2 4s;
+    color: #f9cf8b;
+}
+
+.paragrafo1{
+    font-size: 35px;
+    color: #ffffff;
+    display: flex;
+    justify-content: left;
+    margin-right: 60%;
+    margin-bottom: 15px;
+    font-family: Kanit;
+    font-weight: 300;
+
+}
+
+.paragrafo2{
+    font-size: 25px;
+    font-family: Kanit;
+    font-weight: 200;
+    animation: mostraprincipal 4s;
+    color: #ffffff;
+}
+
+.imagemprincipal{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 170px;
+    right: 40px;
+    z-index: 1;
+}
+
+.titulo_projetos{
+    position: absolute;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color:#f9cf8b
+}
+
+.titulo_projetos h1{
+    font-size: 40px;
+    font-family: Kanit;
+    font-weight: 400;
+    margin-bottom: -300px;
+}
+
+.projetos{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200;
+}
+
+
+
+.projetos .titulo_cardpro{
+    font-family: Kanit;
+    font-weight: 300;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    animation: mostraprincipal2 2s;
+}
+
+
+.projetos .descricao_cardpro{
+    font-family: Kanit;
+    font-weight: 200;
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 20%;
+    padding-right: 20%;
+    animation: mostraprincipal2 4s;
+    margin-bottom: 20px;
+}
+
+.projetos .link_projeto{
+    background-color: transparent;
+    width: 140px;
+    height: 60px;
+    font-weight: 200;
+    font-size: 18px;
+    padding: 10px;
+    animation: mostraprincipal2 4s;
+    border-radius: 50px;
+    border: none;
+    border: 3px solid #ffffff;
+
+}
+
+.projetos .link_projeto:hover{
+    background-color: #8e007e;
+    filter: drop-shadow( 0 0 15px #8e007e);
+    scale: 1.10;
+}
+
+.projetos .link_projeto a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.projetos .botao_proximo{
+    position: absolute;
+    top: 980px;
+    right: 10%;
+    cursor: pointer;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    border: none;
+    /* color: #3498db; */
+    font-size: 1.5em;
+}
+
+.projetos .botao_anterior{
+    position: absolute;
+    top: 980px;
+    left: 10%;
+    cursor: pointer;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: #3498db;
+    font-size: 1.5em;
+}
+
+.projetos .card_projetos{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f9cf8b;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.projetos .card_projetos2{
+    width: 80%;
+    height: 400px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f9cf8b;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.projetos .card_projetos3{
+    width: 80%;
+    height: 400px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f9cf8b;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.projetos .card_projetoss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projetos .card_projetoss2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projetos .card_projetoss3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Kanit;
+    font-weight: 200;
+}
+
+@media (max-width: 1200px){
+    .imagemprincipal{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 999px){
+    .imagemprincipal{
+        display: none;
+    }
+
+    .informacoes_principal{
+        width: 60%;
+    }
+
+    .projetos .botao_proximo{
+        position: absolute;
+        top: 980px;
+        right: -40px;
+
+    }
+    
+    .projetos .botao_anterior{
+        position: absolute;
+        top: 980px;
+        left: -30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagemprincipal{
+        display: none;
+    }
+
+    .informacoes_principal{
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .titulo_principal{
+        margin-right: 20px;
+        
+    }
+
+    .paragrafo2{
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .titulo_projetos{
+        position: absolute;
+        top: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        color:#f9cf8b;
+        margin-top: -20px;
+    }
+    
+    .titulo_projetos h1{
+        font-size: 30px;
+        font-family: Kanit;
+        font-weight: 300;
+    }
+
+    .projetos .titulo_cardpro{
+        font-size: 25px;
+    }
+
+    .projetos .descricao_cardpro{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .projetos .botao_proximo{
+        position: absolute;
+        top: 980px;
+        right: -40px;
+        scale: .9;
+
+    }
+    
+    .projetos .botao_anterior{
+        position: absolute;
+        top: 980px;
+        left: -30px;
+        scale: .9;
+    }
+
+    .projetos .link_projeto{
+        width: 100px;
+        height: 40px;
+    }
+
+    .projetos .link_projeto{
+        font-size: 14px;
+    }
+}
