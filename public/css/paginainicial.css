@@ -6,8 +6,10 @@
 }
 
 body{
-    background: linear-gradient(250deg, #3d1365, #5c1374, #8e007e);
+    background: linear-gradient(-50deg, #3d1365, #5c1374, #8e007e, #f9cf8b);
+    background-size: 400% 400%;
     width: 100%;
+    animation: animacaofundo 8s ease infinite;
 }
 
 
@@ -222,7 +224,7 @@ nav .menu_principal .icone_contato{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid #f9cf8b;
+    border: 3px solid #f9cf8b;
     border-radius: 30px;
     background-color: transparent;
 }
@@ -234,7 +236,7 @@ nav .menu_principal .icone_contato{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid #f9cf8b;
+    border: 3px solid #f9cf8b;
     border-radius: 30px;
     background-color: transparent;
 }
@@ -246,7 +248,7 @@ nav .menu_principal .icone_contato{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid #f9cf8b;
+    border: 3px solid #f9cf8b;
     border-radius: 30px;
     background-color: transparent;
 }
