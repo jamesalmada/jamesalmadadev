@@ -294,6 +294,9 @@ footer{
 }
 
 @media (max-width: 999px){
+    bordy{
+        width: 100%;
+    }
     .imagemprincipal{
         display: none;
     }
@@ -322,6 +325,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 100%;
     }
 
     nav{
