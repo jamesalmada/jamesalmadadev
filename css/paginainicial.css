@@ -284,6 +284,7 @@ footer{
     flex-direction: column;
     font-family: Kanit;
     font-weight: 200;
+    width: 100%;
 }
 
 @media (max-width: 1200px){
@@ -406,5 +407,9 @@ footer{
 
     .projetos .link_projeto{
         font-size: 14px;
+    }
+
+    footer{
+        width: 100%;
     }
 }
