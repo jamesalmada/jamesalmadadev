@@ -55,7 +55,6 @@ nav .menu_principal .icone_contato{
     justify-content: center;
     flex-direction: column;
     height: 700px;
-    width: 100%;
 }
 
 .informacoes_principal{
@@ -115,7 +114,6 @@ nav .menu_principal .icone_contato{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
     color:#f9cf8b
 }
 
@@ -127,7 +125,6 @@ nav .menu_principal .icone_contato{
 }
 
 .projetos{
-    width: 100%;
     height: 600px;
     display: flex;
     align-items: center;
