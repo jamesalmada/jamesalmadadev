@@ -295,7 +295,7 @@ footer{
 }
 
 @media (max-width: 999px){
-    bordy{
+    body{
         width: 100%;
     }
     .imagemprincipal{
