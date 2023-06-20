@@ -8,7 +8,6 @@
 body{
     background: linear-gradient(-50deg, #3d1365, #5c1374, #8e007e, #f9cf8b);
     background-size: 400% 400%;
-    width: 100%;
     animation: animacaofundo 8s ease infinite;
 }
 
@@ -296,7 +295,7 @@ footer{
 
 @media (max-width: 999px){
     body{
-        width: 100%;
+        max-width: 100%;
     }
     .imagemprincipal{
         display: none;
@@ -326,7 +325,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        max-width: 100%;
     }
 
     nav{
